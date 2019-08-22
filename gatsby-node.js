@@ -52,7 +52,7 @@ exports.onCreateNode = async ({
     store,
     cache,
   }) => {
-    console.log(node)
+    //console.log(node)
     const { createNodeField, createNode } = actions
     if (node.internal.type === 'Manifesto') {
       try {
