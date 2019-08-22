@@ -20,6 +20,9 @@ module.exports = {
       resolve: "gatsby-source-wordpress",
       options: {
         baseUrl: "www.mywesthoughton.co.uk",
+        includedRoutes: [
+          "**/posts",
+        ],
       }
     },
     `gatsby-transformer-sharp`,
