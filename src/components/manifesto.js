@@ -10,7 +10,7 @@ class Manifesto extends React.Component {
         const issues = this.props.issues;
 
         let slides = 3;
-        if(window){
+        if(typeof window !== 'undefined'){
             slides = Math.floor(window.innerWidth / 300) 
         }
         

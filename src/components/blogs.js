@@ -8,7 +8,10 @@ import styles from './blogs.module.scss'
 class Blogs extends React.Component {
 
     goto(url) {
-        window.location = url
+        if(typeof window !== 'undefined'){
+            window.location = url
+        }
+        
     }
     render() {
 
