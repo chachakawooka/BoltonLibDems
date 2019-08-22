@@ -22,6 +22,7 @@ module.exports = {
         baseUrl: "www.mywesthoughton.co.uk",
         includedRoutes: [
           "**/posts",
+          "**/media",
         ],
       }
     },
