@@ -4,7 +4,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-compile-es6-packages`,
       options: {
-        modules: [`@liberaldemocrats/triangles`,`@liberaldemocrats/card`,`@liberaldemocrats/logo`]
+        modules: [`@liberaldemocrats/triangles`, `@liberaldemocrats/card`, `@liberaldemocrats/logo`]
       },
     },
     `gatsby-plugin-sass`,
@@ -15,6 +15,12 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
+    },
+    {
+      resolve: "gatsby-source-wordpress",
+      options: {
+        baseUrl: "www.mywesthoughton.co.uk",
+      }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
