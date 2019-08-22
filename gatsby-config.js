@@ -4,7 +4,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-compile-es6-packages`,
       options: {
-        modules: [`@liberaldemocrats/triangles`,`@liberaldemocrats/card`]
+        modules: [`@liberaldemocrats/triangles`,`@liberaldemocrats/card`,`@liberaldemocrats/logo`]
       },
     },
     `gatsby-plugin-sass`,
