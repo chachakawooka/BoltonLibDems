@@ -16,7 +16,6 @@ class Header extends React.Component {
           <Logo strap="Bolton" />
         </div>
         <div>
-c
         </div>
       </header>
     )
